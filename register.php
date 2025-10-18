@@ -67,6 +67,59 @@ session_start();
                 </div>
 
                 <div class="mb-3">
+                    <label for="department" class="form-label">Department</label>
+                    <select class="form-select" id="department" name="department" required>
+                        <option value="">Select Department</option>
+                        <option value="CSE">Computer Science & Engineering (CSE)</option>
+                        <option value="ECE">Electronics & Communication Engineering (ECE)</option>
+                        <option value="EEE">Electrical & Electronics Engineering (EEE)</option>
+                        <option value="ME">Mechanical Engineering (ME)</option>
+                        <option value="CE">Civil Engineering (CE)</option>
+                        <option value="IT">Information Technology (IT)</option>
+                        <option value="AE">Aerospace Engineering (AE)</option>
+                        <option value="CHE">Chemical Engineering (CHE)</option>
+                        <option value="BT">Biotechnology (BT)</option>
+                        <option value="Other">Other</option>
+                    </select>
+                </div>
+
+                <div class="mb-3">
+                    <label for="batch" class="form-label">Batch</label>
+                    <select class="form-select" id="batch" name="batch" required>
+                        <option value="">Select Batch</option>
+                        <option value="2024">2024</option>
+                        <option value="2023">2023</option>
+                        <option value="2022">2022</option>
+                        <option value="2021">2021</option>
+                        <option value="2020">2020</option>
+                        <option value="2019">2019</option>
+                        <option value="2018">2018</option>
+                        <option value="2017">2017</option>
+                        <option value="2016">2016</option>
+                        <option value="2015">2015</option>
+                        <option value="Other">Other</option>
+                    </select>
+                </div>
+
+                <div class="mb-3">
+                    <label for="section" class="form-label">Section</label>
+                    <select class="form-select" id="section" name="section" required>
+                        <option value="">Select Section</option>
+                        <option value="A">A</option>
+                        <option value="B">B</option>
+                        <option value="C">C</option>
+                        <option value="D">D</option>
+                        <option value="E">E</option>
+                        <option value="F">F</option>
+                        <option value="G">G</option>
+                        <option value="H">H</option>
+                        <option value="I">I</option>
+                        <option value="J">J</option>
+                        <option value="Other">Other</option>
+                    </select>
+                </div>
+
+                <div class="mb-3">
                     <label for="password" class="form-label">Password</label>
                     <div class="input-group">
                         <input type="password" class="form-control" id="password" name="password" required>
